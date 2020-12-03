@@ -4,7 +4,7 @@ body {
 
 .conteiner {
     position: relative;
-    height: 720px;
+    height: 1000px;
     width: auto;
     background-image: linear-gradient(to bottom right, rgb(87, 179, 233), rgb(45, 104, 241));
 }
