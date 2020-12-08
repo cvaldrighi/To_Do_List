@@ -1,5 +1,14 @@
+*,*:before, *:after {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+
 body {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
 }
 
 .conteiner {
@@ -68,9 +77,28 @@ input[type=text] {
     top: 190px;
     width: 30%;
     height: 400px;
+    max-height: 400px;
+    overflow-y: scroll;
     border: none;
     border-radius: 4px;
     background-color: white;
     box-shadow: 1px 3px 4px #888888;
+    padding: 20px;
+    margin: 0px;
 
 }
+
+.list__block li {
+    border-bottom: #888888 1px solid;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    word-break: break-all;
+    line-height: 22px;
+}
+
+.list__completed {
+    text-decoration: line-through;
+    opacity: 0.5px;
+}
+
