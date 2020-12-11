@@ -102,3 +102,9 @@ input[type=text] {
     opacity: 0.5px;
 }
 
+.btn__delete {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
